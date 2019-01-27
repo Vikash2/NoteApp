@@ -1,4 +1,4 @@
-# Notes
+# NoteApp
 Simple notes taking app.
 
 ## Screnshots
