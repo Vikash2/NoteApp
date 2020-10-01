@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         {
             notes=new ArrayList(set);
         }
-        arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,notes);
+        arrayAdapter = new ArrayAdapter(this,R.layout.listview_textview,notes);
         listView.setAdapter(arrayAdapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
